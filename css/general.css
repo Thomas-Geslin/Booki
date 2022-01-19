@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+* {
+    box-sizing: border-box; /* Opera/IE 8+ */
+    -moz-box-sizing: border-box; /* Firefox, autres Gecko */
+    -webkit-box-sizing: border-box; /* Safari/Chrome, autres WebKit*/
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 16px;
+}
+
+
+/*En-tête !!!*/
+header {
+    line-height: 20px;
+}
+
+header h1 {
+    font-size: 30px;
+}
+
+header p {
+    font-size: 20.5px;
+}
+
+#nav {
+    display: flex;
+}
+
+#nav a {
+    padding: 45px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding-top: 60px;
+}
+
+#nav a:hover {
+    color: #0065FC;
+    border-top: #0065FC solid 2px;
+}
+
+.nav_link {
+    display: flex;
+    margin-left: auto;
+    padding-top: 27px;
+}
+
+#logo{
+    width: 120px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+/*Formulaire*/
+.formulaire {
+    display: flex;
+    margin-top: -20px;
+}
+
+#marker {
+    padding: 21px;
+    background-color: #f2f2F2;
+    border-radius: 20px 0 0 20px;
+    color: black;
+    font-size: 22px;
+    align-self: center;
+}
+
+input {
+    font-weight: bold;
+    padding-left: 10px;
+    border: 1px solid #f2f2F2;
+    height: 64px;
+}
+
+#search {
+    background-color: #0065FC;
+    border-radius: 0 20px 20px 0;
+    width: 175px;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    border-style: none;
+    height: 64px;
+    align-self: center;
+}
+/*Formulaire*/
+
+/*Barre filtres*/
+.filter {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+#title_filter {
+    border: none;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    list-style-type: none;
+    border-radius: 50px;
+    border: #d1cece 2.5px solid;
+    margin-left: 2%;
+    margin-bottom: 20px;
+    align-self: baseline;
+}
+
+.container:hover {
+    color: #0065FC;
+    cursor: pointer;
+}
+
+.icon {
+    color: #0065FC;
+    background-color: #DEEBFF;
+    padding: 20px;
+    border-radius: 90%;
+    font-size: 24px;
+}
+
+.filter li {
+    padding:5px 5px 0px 5px;
+    font-size: 22px;
+    font-weight: bold;
+    align-self: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+/*Barre filtres*/
+.info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+#info_icon {
+    color: #0065FC;
+    font-size: 15px;
+    border: 1px solid #dad8d8;
+    border-radius: 90%;
+    padding: 7px 11px 7px 11px;
+    margin-right: 10px;
+}
+/*Main*/
+#main{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Article principale*/
+article {
+    background-color: #f2f2F2;
+    border-radius: 20px;
+    width: 66%;
+}
+
+article h1 {
+    font-size: 28px;
+    padding-left: 3%;
+    padding-top: 3%;
+}
+
+#card_box {
+    display: flex;
+    flex-direction: column;
+}
+
+#ligne01 {
+    display: flex;
+}
+
+#ligne02 {
+    display: flex;
+}
+
+.card {
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 3%;
+    box-shadow: #c5c5c5 2px 2px 15px
+}
+
+.card_image {
+    height: 150px;
+}
+
+.card_image img {
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover; 
+}
+
+.card_body {
+    line-height: 10px;
+    padding-left: 5%;
+}
+
+.card_body h2 {
+    font-size: 20px;
+}
+
+i {
+    font-size: 17px;
+    color: #0065FC;
+    padding-bottom: 3%;
+}
+
+.grey_star {
+    color: #b8b8b8;
+}
+
+#afficher {
+    font-weight: 900;
+    padding-left: 40px;
+    padding-bottom: 3%;
+    font-size: 24px;
+}
+/* Article principale*/
+
+/*Aside*/
+aside {
+    background-color: #f2f2F2;
+    border-radius: 20px;
+    width: 31%;
+    padding-bottom: 10px;
+}
+
+aside h1 {
+    padding-top: 5%;
+    padding-left: 6%;
+    font-size: 28px;
+}
+
+.aside_title {
+    display: flex;
+}
+
+#graph {
+    font-size: 30px;
+    color: black;
+    margin-left: 28%;
+    margin-top: 45px;
+}
+
+#card_box02 {
+    display: flex;
+    flex-direction: column;
+}
+
+.card_popu {
+    width: 420px;
+    height: 190px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: #c5c5c5 2px 2px 15px;
+    display: flex;
+}
+
+.card_image_popu {
+    width: 180px;
+}
+
+.card_image_popu img {
+    width: 100%;
+    height: 100%;
+    padding: 4%;
+    border-radius: 20px 0 0 20px;
+    object-fit: cover;
+}
+
+.card_body_popu {
+    margin-left: 4%;
+}
+
+.card_body_popu h2 {
+    font-size: 20px;
+}
+
+.card_body_popu i {
+    font-size: 14px;
+    margin-top: 50px;
+}
+/*Aside*/
+
+/*Activites*/
+#activites {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+#activites p {
+    font-size: 20px;
+    font-weight: 900;
+    padding-left: 25px;
+}
+
+#activite_pictures {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#activite_pictures img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.port, .parc {
+    border-radius: 20px;
+    box-shadow: #e0e0e0 4px 4px 15px;
+    width: 22%;
+    height: 550px;
+    overflow: hidden;
+}
+
+#port_img, #parc_img {
+    height: 480px;
+}
+
+.fort, .longchamp {
+    border-radius: 20px;
+    box-shadow: #e0e0e0 4px 4px 15px;
+    width: 22%;
+    height: 300px;
+    overflow: hidden;
+}
+
+#fort_img, #longchamp_img {
+    height: 230px;
+}
+
+.ile, .eglise {
+    border-radius: 20px;
+    box-shadow: #e0e0e0 4px 4px 15px;
+    width: 22%;
+    height: 200px;
+    overflow: hidden;
+}
+
+#ile_img, #eglise_img {
+    height: 130px;
+}
+/*Activites*/
+
+/*Bas de page*/
+footer {
+    background-color: #f2f2F2;
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 110px;
+}
+
+footer h1 {
+    font-size: 24px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    line-height: 35px;
+}
+
+.footer_part{
+    flex-direction: column;
+    margin-right: 15%;
+}
+
+footer li{
+    width: 300px;
+    font-size: 20px;
+}
+

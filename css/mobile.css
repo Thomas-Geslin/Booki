@@ -1,0 +1,129 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/*Header*/
+header {
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 15px;
+}
+
+header h1 {
+    line-height: 30px;
+}
+
+#logo {
+    padding-bottom: 30px;
+    margin: auto;
+}
+
+#nav {
+    padding-bottom: 50px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#nav a {
+    border-bottom: 3px #f2f2f2 solid;
+    font-size: 30px;
+}
+
+#nav a:hover {
+    color: #0065FC;
+    border-bottom: #0065FC solid 3px;
+    border-top: none;
+}
+
+.nav_link {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.formulaire {
+    justify-content: center;
+}
+
+.filter {
+    max-width: 600px;
+    flex-wrap: wrap;
+}
+
+#title_filter {
+    margin-right: 500px;
+}
+
+.heart {
+    margin-right: 200px;
+}
+/*Corps de la page*/
+#main {
+    flex-direction: column-reverse;
+}
+
+/*Plus popuplaires*/
+aside {
+    width: auto;
+    border-radius: 0%;
+    margin-bottom: 20px;
+
+}
+
+.card_popu {
+    width: auto;
+}
+
+#graph {
+    margin-left: 35%;
+}
+/*Hebergement*/
+article {
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: auto;
+}
+
+.card {
+    width: auto;
+}
+
+#card_box, #ligne01, #ligne02 {
+    flex-direction: column;
+}
+
+#afficher {
+    font-size: 24px;
+}
+
+/*Activités*/
+#activites {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+#activite_pictures {
+    height: auto;
+}
+
+.port, .fort, .ile, .parc, .eglise, .longchamp {
+    width: 95%;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+#port_img, #fort_img, #ile_img, #parc_img, #eglise_img, #longchamp_img {
+    height: 75%;
+}
+/*Footer*/
+footer {
+    flex-direction: column;
+    margin-top: -20px;
+}
+
+.footer_part {
+    margin-bottom: 30px;
+}
