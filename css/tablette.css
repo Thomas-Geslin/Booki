@@ -1,0 +1,135 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/*Header*/
+header {
+    margin: 0 45px 0 45px;
+}
+
+.nav_link {
+    margin-bottom: 20px;
+}
+
+.nav a {
+    font-size: 28px;
+}
+
+.formulaire {
+    justify-content: center;
+}
+
+.marker {
+    padding: 23px;
+    font-size: 24px;
+}
+
+input {
+    padding-left: 10px;
+    height: 70px;
+    left: 64px;
+}
+
+.loupe {
+    font-size: 24px;
+    padding: 23px;
+}
+
+#logo {
+    margin-bottom: 50px;
+    width: 150px;
+}
+
+.filter p {
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+.container {
+    height: 64px;
+    border: #d1cece 3px solid;
+}
+
+.icon {
+    padding: 20px;
+    font-size: 22px;
+    height: 65px;
+}
+/*Header*/
+
+main {
+    flex-direction: column;
+}
+
+/*Hebergement*/
+article h1 {
+    padding: 0 0 25px 45px;
+}
+
+article a {
+    width: 320px;
+}
+
+.card_box {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#afficher {
+    margin: 30px 0 50px 45px;
+}
+/*Aside*/
+aside {
+    padding: 0 45px 50px 45px;
+}
+
+aside h1 {
+    padding-left: 0;
+}
+
+.card_popu {
+    height: 180px;
+}
+
+.card_image_popu {
+    width: 200px;
+}
+
+.card_body_popu h2 {
+    font-size: 22px;
+}
+
+.card_body_popu p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/*Activites*/
+section h1 {
+    margin: 0 0 25px 45px;
+}
+
+section a {
+    margin: 0;
+    width: 320px;
+    margin-bottom: 30px;
+}
+
+section p {
+    margin: 0;
+    padding-top: 12px;
+}
+
+.activite_pictures {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* Footer */ 
+footer {
+    padding-left: 45px;
+    padding-bottom: 0;
+}
